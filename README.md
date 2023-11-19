@@ -1,4 +1,7 @@
 # crocodiles
 <DOCTYPE html>
 
--[Version1] (https://github.com/McMaster6425/Crocodile.git)
+-[Version1] (https://McMaster6425.github.io/Crocodile.html)
+
+</body>
+</html>
