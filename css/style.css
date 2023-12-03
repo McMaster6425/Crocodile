@@ -12,9 +12,8 @@ h1 {
 }
 
 .imageheader {
-    background: url(../Images/imageheader.jpg) no-repeat;
-    width: fit-content;
-
+    background: url(../Images/imageheaderfinal.png) no-repeat;
+    width: 100vw;
 }
 
 #subheading {
@@ -22,4 +21,40 @@ h1 {
     width: fit-content;
     position: relative;
     font-size: 3rem;
+}
+
+p {
+    font-size: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+a:link { 
+    color: white;
+    text-decoration: none;
+}
+
+li, #navigation {
+    display: inline-block;
+    font-size: large;
+    margin-left: 8rem;
+    align-content: stretch;
+}
+
+#list {
+    position: relative;
+    margin-right: 2rem;
+    color: white;
+}
+
+h2 {
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: large;
+}
+
+li, #morninglist {
+    color: white;
+    font-size: 1rem;
+    position: relative;
 }
