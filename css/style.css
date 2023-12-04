@@ -5,14 +5,17 @@ body {
 }
 
 h1 {
-    text-align: center;
+    text-align: left;
     font-family: 'Times New Roman', Times, serif;
     font-size: 6rem;
     color: white;
+    background-color: black;
+    width: 100vw;
+    margin-left: 10rem;
 }
 
 .imageheader {
-    background-image: url(../Images/finalimgsoc.png) no-repeat;
+    background: url(../Images/finalimgsoc.png) no-repeat;
     width: 100vw;
     position: relative;
 }
