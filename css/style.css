@@ -10,8 +10,9 @@ h1 {
     font-size: 6rem;
     color: white;
     background-color: black;
-    width: 100vw;
+    width: 80vw;
     margin-left: 10rem;
+    margin-right: 10rem;
 }
 
 .imageheader {
@@ -22,6 +23,8 @@ h1 {
 
 #subheading {
     color: white;
+    font-family:'Times New Roman', Times, serif;
+    background-color: black;
     width: fit-content;
     position: relative;
     font-size: 3rem;
@@ -44,10 +47,9 @@ a:link {
 
 li, #navigation {
     display: inline-block;
-    font-size: large;
-    margin-left: 7rem;
-    margin-right: 7rem;
-    align-content: stretch;
+    font-size: medium;
+    margin-left: 5rem;
+    margin-right: 5rem;
 }
 
 #list {
@@ -123,5 +125,11 @@ img,#luminousm {
 img,#marketsquare {
     position: relative;
     width: 50rem;
+    margin-left: 15rem;
+}
+
+footer { 
+    text-align: left;
+    display: list-item;
     margin-left: 15rem;
 }
