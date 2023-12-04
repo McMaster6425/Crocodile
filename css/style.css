@@ -7,18 +7,12 @@ body {
 h1 {
     text-align: left;
     font-family: 'Times New Roman', Times, serif;
-    font-size: 6rem;
+    font-size: 5rem;
     color: white;
     background-color: black;
     width: 80vw;
-    margin-left: 10rem;
+    margin-left: 15rem;
     margin-right: 10rem;
-}
-
-.imageheader {
-    background: url(../Images/finalimgsoc.png) no-repeat;
-    width: 100vw;
-    position: relative;
 }
 
 #subheading {
@@ -27,8 +21,8 @@ h1 {
     background-color: black;
     width: fit-content;
     position: relative;
-    font-size: 3rem;
-    margin-left: 25rem;
+    font-size: 2.6rem;
+    margin-left: 15rem;
 }
 
 p {
@@ -130,6 +124,16 @@ img,#marketsquare {
 
 footer { 
     text-align: left;
-    display: list-item;
+    position: relative;
     margin-left: 15rem;
+}
+
+#imagesxx {
+    text-align: left;
+    position: relative;
+}
+
+ul,#mywork {
+    display: list-item;
+
 }
