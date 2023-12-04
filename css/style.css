@@ -12,8 +12,9 @@ h1 {
 }
 
 .imageheader {
-    background: url(../Images/imageheaderfinal.png) no-repeat;
+    background-image: url(../Images/finalimgsoc.png) no-repeat;
     width: 100vw;
+    position: relative;
 }
 
 #subheading {
@@ -21,12 +22,16 @@ h1 {
     width: fit-content;
     position: relative;
     font-size: 3rem;
+    margin-left: 25rem;
 }
 
 p {
     font-size: 1rem;
     font-family: Arial, Helvetica, sans-serif;
+    font-weight: 50rem;
     color: white;
+    margin-left: 15rem;
+    margin-right: 15rem;
 }
 
 a:link { 
@@ -37,7 +42,8 @@ a:link {
 li, #navigation {
     display: inline-block;
     font-size: large;
-    margin-left: 8rem;
+    margin-left: 7rem;
+    margin-right: 7rem;
     align-content: stretch;
 }
 
@@ -50,11 +56,69 @@ li, #navigation {
 h2 {
     color: white;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: large;
+    font-size: 2rem;
+    position: relative;
+    margin-left: 15rem;
+    align-items: center;
+    text-align: justify;
 }
 
-li, #morninglist {
+#Energy {
+    display: list-item;
     color: white;
-    font-size: 1rem;
+    font-size: large;
+    margin-left: 15rem;
+}
+
+#seaweeds {
+    display: list-item;
+    color: white;
+    font-size: large;
+    margin-left: 15rem;
+}
+
+#taste {
+    display: list-item;
+    color: white;
+    font-size: large;
+    margin-left: 15rem;
+}
+
+#dinner {
+    display: list-item;
+    color: white;
+    font-size: large;
+    margin-left: 15rem;
+}
+
+#smell {
+    color: white;
+    font-size: large;
+    margin-left: 15rem;
+}
+
+#quote {
+    color: white;
+    font-size: medium;
+    margin-left: 15rem;
+    text-align: center;
+    margin-right: 15rem;
+}
+
+img,#bruno {
     position: relative;
+    width: 50vw;
+    margin-left: 15rem;
+}
+
+img,#luminousm {
+    position: relative;
+    width: 50rem;
+    margin-left: 15rem;
+}
+
+img,#marketsquare {
+    position: relative;
+    width: 50rem;
+    margin-left: 15rem;
 }
